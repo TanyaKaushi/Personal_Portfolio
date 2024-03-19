@@ -11,7 +11,7 @@
 
 :root {
     --text-color: #505050;
-    --hover-color: rgb(255, 100, 91);
+    --hover-color: rgb(232, 90, 83);
     --para-color: #808080;
     --bg-color: #fafafa;
     --secon-bg-color: #F4F4F4;
@@ -95,14 +95,6 @@ span {
 
 .navlist a:hover {
     color: var(--hover-color);
-    text-shadow: 0 0 10px rgb(255, 100, 91, 0.6),
-        0 0 20px rgb(255, 100, 91, 0.6),
-        0 0 30px rgb(255, 100, 91, 0.6),
-        0 0 40px rgb(255, 100, 91, 0.6),
-        0 0 70px rgb(255, 100, 91, 0.6),
-        0 0 80px rgb(255, 100, 91, 0.6),
-        0 0 100px rgb(255, 100, 91, 0.6),
-        0 0 150px rgb(255, 100, 91, 0.6);
 }
 
 .navlist a.active {
@@ -132,6 +124,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     grid-gap: 4rem;
+    margin-top: 5px;
 }
 
 .home-content {
@@ -626,6 +619,8 @@ section {
 .contact {
     background: var(--secon-bg-color);
     width: 100%;
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
 }
 
 
@@ -868,7 +863,7 @@ footer a i {
     :root {
         --big-font: 2.2rem;
         --norma-font: 1.8rem;
-        --neon-box-shadow: 0 0 .8rem rgb(255, 100, 91);
+        --neon-box-shadow: 0 0 .8rem var(--text-color);
         --h2-font: 3rem;
     }
 
